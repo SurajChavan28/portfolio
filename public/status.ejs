@@ -1,0 +1,26 @@
+<%- include("head.ejs"); %>
+<style>
+	.code {
+		font-size: clamp(1.5rem, -0.875rem + 8.333vw, 3.5rem);
+		color: white;
+	}
+
+	.status {
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+</style>
+<body>
+	<div class="status">
+		<div class="code">
+			<span class="special">Message</span><span class="span brck">=>(</span>
+			<br />&emsp;&emsp;<span class="str"><%=msg%> </span><br /><span
+				class="brck"
+				>)</span
+			>
+		</div>
+	</div>
+</body>

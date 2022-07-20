@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<%- include("head.ejs") %>
+	</head>
+	<body>
+		<%- include("navbar.ejs") %>
+		<div class="content">
+			<div class="projects">
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+				<div class="project"></div>
+			</div>
+		</div>
+	</body>
+</html>
+<style>
+	.projects {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+		gap: 10px;
+		grid-auto-rows: 230px;
+	}
+	.project {
+		align-self: center;
+		justify-self: center;
+		height: 200px;
+		aspect-ratio: 1/1;
+		border-radius: 20px;
+		outline: 2px solid var(--slate);
+	}
+</style>
